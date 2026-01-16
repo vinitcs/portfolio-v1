@@ -25,13 +25,11 @@ function Experience() {
                                    </a>
                               </div>
                          }
-
-                         <p>{data.description}</p>
-                         {/* <ul>
+                         <ul className={styles.listSection}>
                               {data.responsibilities.map((item, i) => (
-                                   <li key={i}>{item}</li>
-                                   ))}
-                                   </ul> */}
+                                   <li key={i} className={styles.listItem}>{item}</li>
+                              ))}
+                         </ul>
 
                          <div className={styles.stackSection}>
                               {data.stackUsed.map((item, i) => {

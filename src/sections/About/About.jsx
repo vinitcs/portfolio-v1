@@ -1,7 +1,7 @@
 import styles from "./AboutStyles.module.css";
 import Paragraph from "../../components/Paragraph/Paragraph";
 
-const paragraph = "MERN stack developer experienced in building web and mobile applications using React.js, React Native, Node.js, and MongoDB. Strong in RESTful APIs, database design, and cloud services, with a focus on performance, data integrity, and clean code.";
+const paragraph = "MERN Stack Developer with experience in building web and mobile apps using React.js, React Native, Node.js, and MongoDB. Skilled in RESTful APIs, database design, and cloud services, with a focus on performance and clean code.";
 
 function About() {
      return (
